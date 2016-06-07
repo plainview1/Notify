@@ -1,0 +1,255 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+/*Fonts
+===========================*/
+@font-face {
+  font-family: 'Raleway';
+  src: url(https://fonts.googleapis.com/css?family=Raleway:600,700);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url(fonts/HelveticaNeue/regular.ttf);
+  font-weight: 400;
+}
+@font-face : {
+  fonta-family: 'HelveticaNeueMedium', sans-serif;
+  src: url(fonts/HelveticaNeue/medium.otf);
+  font-weight: ;
+}
+@font-face : {
+  fonta-family: 'HelveticaNeueItalic';
+  src: url(fonts/HelveticaNeue/italic.otf);
+  font-weight: ;
+}
+@font-face : {
+  fonta-family: 'HelveticaNeueBolditalic';
+  src: url(fonts/HelveticaNeue/bolditalic.otf);
+  font-weight: 700;
+  font-style: italic;
+}
+.header-icon {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+}
+.icon {
+  height: 34px;
+  width: 34px;
+}
+.icon-apple {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/apple.png);
+}
+.icon-android {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/android.png);
+}
+.icon-windows {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/windows.png);
+}
+.icon-apple:hover {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/hover.png);
+}
+.icon-android:hover {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/hover.png);
+}
+.icon-windows:hover {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  background-image: url(img/hover.png);
+}
+p.medium {
+  font-family: HelveticaNeueMedium;
+}
+p.italic {
+  font-family: HelveticaNeueItalic;
+  font-style: italic;
+}
+p.bolditalic {
+  font-family: HelveticaNeueBolditalic;
+  font-style: italic;
+  font-weight: 700;
+}
+/*Main
+==========================*/
+body,
+p {
+  font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  border-top: 10px solid #2ecc71;
+}
+a {
+  text-decoration: none;
+}
+a b:hover {
+  color: #2ecc71;
+  font-weight: 600;
+}
+a:hover {
+  color: #2ecc71;
+  font-weight: 600;
+}
+h2 {
+  font-family: 'Raleway';
+  font-size: 22px;
+  color: #222;
+}
+.align-center {
+  margin: 0 auto;
+}
+.grey {
+  background: #eaeaea;
+}
+.container {
+  padding: 60px 0 60px 0;
+}
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header {
+  height: 600px;
+  background: url(img/header.jpg);
+  color: #fff;
+  padding-left: 128px;
+  padding-top: 4%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header h1 {
+  font-family: 'Pacifico';
+  font-size: 60px;
+}
+header h1 span {
+  color: #2ecc71;
+}
+header p {
+  color: #fff;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  width: 450px;
+}
+header span {
+  margin-top: 25px;
+  margin-right: 15px;
+}
+#subscribe form {
+  margin: 30px 0;
+  display: inline-block;
+  width: 80%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #fff;
+}
+#subscribe button,
+#subscribe input {
+  border: none;
+}
+#subscribe button {
+  background: #2ecc71;
+  font-size: 22px;
+  color: white;
+  padding: 15px 2em;
+  float: right;
+  border-radius: 0 15px 15px 0;
+  width: 30%;
+}
+#subscribe button :hover {
+  cursor: pointer;
+}
+#subscribe input:focus {
+  outline: none;
+}
+#subscribe input {
+  line-height: 56px;
+  width: 70%;
+  padding-left: 2em;
+  border-radius: 15px 0 0 15px;
+}
+#subscribe img {
+  width: 100%;
+}
+#subscribe .video {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#testimonials {
+  text-align: center;
+  font-size: 18px;
+}
+#testimonials .quote {
+  width: 68%;
+}
+#testimonials a.quote-author {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #848484;
+}
+#testimonials .avatars {
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  overflow-y: hidden;
+}
+#testimonials .avatars a {
+  display: inline-block;
+  height: 50px;
+}
+#testimonials .get-in-touch {
+  margin-top: 60px;
+  font-size: 16px;
+}
+#testimonials .get-in-touch h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+footer ul.footer-menu {
+  text-align: center;
+  font-size: 16px;
+  list-style-type: none;
+}
+footer ul.footer-menu li {
+  display: inline-block;
+  margin-right: 25px;
+}
+footer ul.footer-menu a {
+  color: #848484;
+}
